@@ -173,9 +173,9 @@ while True:
         avgRating = {}
         reviewCt = {}
         #cuisines = []
-        num_categories = int(input("Please enter number of categories: "))
+        num_categories = int(input("Please enter number of categories(eg. 1-5): "))
         for i in range(num_categories):
-            food_type = input("Please enter a category: ").lower()
+            food_type = input("Please enter a category(eg. italian,chinese): ").lower()
             params = {
                       'category_filter': food_type,
                       'lang': 'en',
