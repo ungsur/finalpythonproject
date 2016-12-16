@@ -60,38 +60,4 @@ user
     },
     'fans': (num_fans),
 }
-check-in
-{
-    'type': 'checkin',
-    'business_id': (encrypted business id),
-    'checkin_info': {
-        '0-0': (number of checkins from 00:00 to 01:00 on all Sundays),
-        '1-0': (number of checkins from 01:00 to 02:00 on all Sundays),
-        ...
-        '14-4': (number of checkins from 14:00 to 15:00 on all Thursdays),
-        ...
-        '23-6': (number of checkins from 23:00 to 00:00 on all Saturdays)
-    }, # if there was no checkin for a hour-day block it will not be in the dict
-}
-tip
-{
-    'type': 'tip',
-    'text': (tip text),
-    'business_id': (encrypted business id),
-    'user_id': (encrypted user id),
-    'date': (date, formatted like '2012-03-14'),
-    'likes': (count),
-}
-photos (from the photos auxiliary file)
-This file is formatted as a JSON list of objects.
-
-[
-    {
-        "photo_id": (encrypted photo id),
-        "business_id" : (encrypted business id),
-        "caption" : (the photo caption, if any),
-        "label" : (the category the photo belongs to, if any)
-    },
-    {...}
-]
 ```
