@@ -1,7 +1,9 @@
 # finalpythonproject
-Notes on the Dataset
-Each file is composed of a single object type, one json-object per-line.
-Take a look at some examples to get you started: https://github.com/Yelp/dataset-examples.
+#This program requires packages nltk, stop_words, gensim, json,matplotlib, pandas ,sklearn, yelp
+
+#Please pip install these packages before running the python script pythonproject.py
+
+#Format of dataset:
 ```json
 business
 {
