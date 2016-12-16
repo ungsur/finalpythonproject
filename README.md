@@ -1,9 +1,9 @@
 # finalpythonproject
-#This program requires packages nltk, stop_words, gensim, json,matplotlib, pandas ,sklearn, yelp
+This program requires packages nltk, stop_words, gensim, json,matplotlib, pandas ,sklearn, yelp
 
-#Please pip install these packages before running the python script pythonproject.py
+Please pip install these packages before running the python script pythonproject.py
 
-#Format of dataset:
+Format of dataset:
 ```json
 business
 {
