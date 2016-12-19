@@ -159,10 +159,10 @@ while True:
     elif choice == 1:
         plt.style.use("ggplot")
         auth = Oauth1Authenticator(
-            consumer_key="LY6h5LK07E6ODjW4UdvSVw",
-            consumer_secret="aeV_B7QgJ-xUGAtSM_nqA-Pry8E",
-            token="rK1VnmKbYGQeION3RRDqKm7Imy_EIUvG",
-            token_secret="HbzykUsvCkKJe3c_e2iu3QAsifE"
+            consumer_key="xxxxxxxxxxxxxxxxxxxxxx",
+            consumer_secret="xxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            token="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            token_secret="xxxxxxxxxxxxxxxxxxxxxxxxxxx"
         )
          
         client = Client(auth)
